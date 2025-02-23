@@ -18,3 +18,8 @@ print(float_2)
 print(float_3)
 
 #complex literals
+x=3.14j
+print(x.imag)
+print(x.real)
+
+
