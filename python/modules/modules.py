@@ -1,8 +1,8 @@
 
-import modules
+import math
 
-modules.sqrt(196)
-
+a = math.sqrt(4)
+print(' ',a)
 
 #keywords
 
