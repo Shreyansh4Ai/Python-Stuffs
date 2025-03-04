@@ -5,3 +5,17 @@
 #10-20 : 20%
 #aboove 20 : 30%
 
+a=int(input("ENTER SALARY:"))
+if a<=500000:
+    print("salary is",a)
+elif a>500000 and a<1000000:
+    a=a-(0.1*a)
+    print("salary is", a)
+elif a>1000000 and a<2000000:
+    a=a-(0.2*a)
+    print("salary is", a)
+elif a>=2000000:
+    a=a-(0.3*a)
+    print("salary is", a)
+else:
+    print("invalid data")
