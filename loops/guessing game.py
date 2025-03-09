@@ -2,7 +2,7 @@
 import random
 jackpot=random.randint(1,100)
 
-guess=int(input('guess kro'))
+guess=int(input('guess THE NUMBER'))
 
 counter =1
 while guess!=jackpot:
@@ -11,7 +11,7 @@ while guess!=jackpot:
     else:
         print('wrong! guess lower')
 
-    guess=int(input('guess kro'))
+    guess=int(input('TRY AGAIN!!!'))
     counter +=1
 
 else :
