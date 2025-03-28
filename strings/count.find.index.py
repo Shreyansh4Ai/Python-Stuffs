@@ -6,5 +6,5 @@ a='I love watching movies'.find('c')
 print(a)
 
 
-a='I love watching movies'.index('love')
+a='I love watching movies'.index('movies')
 print(a)
