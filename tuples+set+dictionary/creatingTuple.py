@@ -14,4 +14,35 @@ print(t3)
 t4=(1,2.5,True,[1,2,3])
 print(t4 )
 
-t5=(1,2,3,(4,5))
+t5=(1,2,3,(4,5))  #2d tupple
+
+#using type conversion
+t6=tuple('hello')  #tuple is used for type conversion
+print(t6)
+
+
+
+#acessing tuples 
+print(t3)
+print(t3[0])
+print(t3[-1])
+
+
+#slicing
+print(t3[::-1])
+
+
+print(t5[-1][0])
+
+
+
+#editing items
+#print(t3)
+#t3[0]=100      #immutable
+
+#deleting items
+#print(t3 )
+#del(t3)
+#print(t3)
+
+# del(t5[-1]) y list m chalta h but tupple pr nhi
