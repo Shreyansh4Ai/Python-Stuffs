@@ -12,4 +12,6 @@ print(t3)
 
 #hetero
 t4=(1,2.5,True,[1,2,3])
-print(t4)
+print(t4 )
+
+t5=(1,2,3,(4,5))
