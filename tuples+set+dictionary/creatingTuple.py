@@ -34,7 +34,7 @@ print(t3[::-1])
 
 print(t5[-1][0])
  
-
+print(t5[-1:-4:-1])
 
 #editing items
 #print(t3)
