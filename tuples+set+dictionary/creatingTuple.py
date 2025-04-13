@@ -38,7 +38,7 @@ print(t5[-1][0])
 
 #editing items
 #print(t3)
-#t3[0]=100      #immutable
+#t3[0]=100     #immutable
 
 #deleting items
 #print(t3 )
