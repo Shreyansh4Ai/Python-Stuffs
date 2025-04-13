@@ -8,7 +8,9 @@ start = time.time()
 
 for i in l:
     i*5
-    print('tuple time',time.time()-start)
+print('list time',time.time()-start)
 
-    start=time.time()
-    for i in O
+start=time.time()
+for i in t:
+        i*5
+print ('tupple time ',time.time()-start)    
